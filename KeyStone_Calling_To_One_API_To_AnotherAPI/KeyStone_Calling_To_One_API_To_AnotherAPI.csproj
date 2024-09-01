@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KeyStoneEmployeeManageMent_businessObject\KeyStoneEmployeeManageMent_businessObject.csproj" />
+    <ProjectReference Include="..\KeyStoneEmployeeManageMent_ServiceLayer\KeyStoneEmployeeManageMent_ServiceLayer.csproj" />
+  </ItemGroup>
+
+</Project>
